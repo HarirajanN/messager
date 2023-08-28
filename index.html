@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messager</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="row">
+    
+    <div class="col-sm-3 " id="chat-box">
+ 
+    <div id="admin-bar">
+        <div id="start">
+            <a href="index.html"><img src="./images/download (1).png" id="profile"></a>
+        </div>
+        <div id="end">
+            <a href=""><ion-icon name="people"  class="end-bar-icon"></ion-icon></a>
+            <a href=""><ion-icon name="filter-circle"  class="end-bar-icon"></ion-icon></a>
+            <a href=""><ion-icon name="chatbox-ellipses" class="end-bar-icon"></ion-icon></a>
+            <a href=""><ion-icon name="ellipsis-vertical" class="end-bar-icon"></ion-icon></a>
+        </div>
+    </div>
+    <div id="search-bar">
+        <div class="input-group">
+        <span class="input-group-text"><ion-icon name="search-outline"></ion-icon></span>
+        <input type="text " class="form-control"  placeholder="Search or Start new Chat" id="search-feild">
+    </div>
+    </div>
+
+ <div id="chat-list">
+ <div class="card mb-2" onclick="change1()">
+    <div class="card-body">
+        <img src="./images/download (1).png" class="profile">
+
+        
+        <div class="detail">
+           <a href="chat1.html"><h6 id="username1">Dr. C.V. Raman</h6></a> 
+        </div>
+    </div>
+ </div>
+ <div class="card mb-2" onclick="change2()">
+    <div class="card-body">
+        <img src="./images/download (1).png" class="profile">
+
+        
+        <div class="detail">
+            <h6 id="username2">Homi J. Bhabha</h6>
+        </div>
+    </div>
+ </div>
+ <div class="card mb-2" onclick="change3()">
+    <div class="card-body">
+        <img src="./images/download (1).png" class="profile">
+
+        
+        <div class="detail">
+            <h6 id="username3">Visvesvaraya</h6>
+        </div>
+    </div>
+ </div>
+ <div class="card mb-2" onclick="change4()">
+    <div class="card-body">
+        <img src="./images/download (1).png" class="profile">
+
+        
+        <div class="detail">
+            <h6 id="username4">Radhakrishnan </h6>
+        </div>
+    </div>
+ </div>
+ <div class="card mb-2" onclick="change5()">
+    <div class="card-body">
+        <img src="./images/download (1).png" class="profile">
+
+        
+        <div class="detail">
+            <h6 id="username5">Chandrashekar</h6>
+        </div>
+    </div>
+ </div>
+ 
+ 
+
+ 
+    </div>
+ </div>  
+   
+   
+   
+    <div class="col-sm-9 " id="contact-box">
+      <div class="contact-bar p-1  ">
+        <div id="left">
+            <span><ion-icon name="people"  class="end-bar-icon"></ion-icon></span>
+            <h6 class="username" id="name"></h6>
+        </div>
+        <div id="right">
+            <a href=""><ion-icon name="search-outline" class="end-bar-icon"></ion-icon></a>
+           <a href=""><ion-icon name="ellipsis-vertical" class="end-bar-icon"></ion-icon></a> 
+        </div>
+      </div>
+    <div class="type-bar p-1">
+        <ion-icon name="happy-outline" class="end-bar-icon"></ion-icon>
+        <ion-icon name="add-outline" class="end-bar-icon"></ion-icon>
+        <input type="text" placeholder="Type a Message" id="input">
+        <ion-icon name="mic" class="end-bar-icon"></ion-icon>
+    </div>
+      
+    </div>
+</div>
+    
+      
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

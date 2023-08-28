@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: black;
+}
+/*-------------------------------Id section--------------------------------*/
+.row{
+  position: relative;
+}
+#chat-box{
+  background-color: whitesmoke;
+  height: 100%;
+ position: fixed;
+  overflow-y: scroll;
+}
+#contact-box{
+ position: fixed;
+ right: 0px;
+ width: 1035px;
+background-color:whitesmoke;
+height: 100%;
+ 
+}
+
+#profile{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin:10px 10px;
+}
+#end{
+  display: flex;
+}
+#admin-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  
+}
+#search-bar{
+  background-color: white;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+  margin-left: 10px;
+ 
+  
+  
+}
+#search-feild{
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: none;
+  padding: 3px;
+ 
+}
+#chat-list{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#name{
+  margin-top: 12px;
+}
+
+#main-box{
+  background-color: rgba(144, 238, 144, 0.445);
+  margin-left: 15px;
+}
+#type{
+
+  background-color: wheat;
+}
+#contact-box{
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
+}
+#left{
+  display: flex;
+ 
+  
+}
+#input{
+ 
+  padding: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px ;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/*-------------------------------Id section--------------------------------*/
+/*-------------------------------Class section--------------------------------*/
+.message{
+  margin-bottom:60px ;
+  margin-left: 10px;
+  border: black dashed 2px;
+  width: 200px;
+  height: 50px;
+  font-weight: 900;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.end-bar-icon{
+  width: 25px;
+  height: 25px;
+  margin: 10px 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.555);
+}
+.input-group-text{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+
+  background-color: whitesmoke;
+  border: none;
+}
+.input-group{
+  border-radius: 5px;
+  margin: 5px 5px;
+ 
+}
+.contact-bar{
+  height:50px ;
+  width: 1035px;
+  background-color:rgba(255, 255, 255, 0.432);
+  display: flex;
+  justify-content: space-between;
+ }
+ .type-bar{
+  height:50px ;
+  width: 1035px;
+  background-color:rgba(80, 79, 79, 0.24);
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  
+ }
+.profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.card-body{
+  display: flex;
+  
+}
+.detail{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.contact-bar{
+  background-color: rgba(255, 255, 255, 0.658);
+  position: fixed;
+ 
+}
+.username{
+  margin-top: 12px;
+}
+
+/*-------------------------------Class section--------------------------------*/
+/*-------------------------------Hover-------------------------*/
+#chat-list:active .contact-box{
+display: block;
+}
+/*-------------------------------Hover-------------------------*/
+@media screen and (max-width:1000px) {
+ 
+  #chat-box{
+    width: 100%;
+  }
+  #contact-box{
+    display:none;
+  }
+}
+
+  

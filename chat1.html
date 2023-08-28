@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messager</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  
+ 
+   
+    <div class="contact-bar p-1 w-100 " style="background-color:whitesmoke ;">
+        <div id="left">
+            <a href="index.html"><span><ion-icon name="people"  class="end-bar-icon"></ion-icon></span></a>
+            <h6 class="username" id="name"></h6>
+        </div>
+        <div id="right">
+            <a href=""><ion-icon name="search-outline" class="end-bar-icon"></ion-icon></a>
+           <a href=""><ion-icon name="ellipsis-vertical" class="end-bar-icon"></ion-icon></a> 
+        </div>
+      </div>
+      <div class="message fixed-bottom  " id="message" ></div>
+    <div class="type-bar p-1 w-100 ">
+        <ion-icon name="happy-outline" class="end-bar-icon"></ion-icon>
+        <ion-icon name="add-outline" class="end-bar-icon"></ion-icon>
+        <input type="text" placeholder="Type a Message" id="input">
+        <ion-icon name="mic" class="end-bar-icon"></ion-icon>
+        <ion-icon name="paper-plane-outline"class="end-bar-icon" onclick="send()" class="send"></ion-icon>
+    </div>
+    
+      
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
